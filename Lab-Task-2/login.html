@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Lab Task 2 (Login)</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <p style="font-size: 35px; text-align: center;">C. LOGIN</p>
+        <div class="container">
+            <form action="" onsubmit="validateForm()" method="get">
+                <div class="inner-container">
+                    <div style="font-weight: bold;">Company</div>
+                    <div class="flex-item">
+                        <p>
+                            <a href="">Home</a>
+                            | <a href="">Login</a>
+                            | <a href="">Registration</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="inner-container">
+                    <div class="second-inner-container">
+                        <fieldset class="login-section">            
+                            <legend class="login">Login</legend>
+                            <table class="table-1">
+                                <tr>
+                                    <td class="right-align">User Name: </td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td class="right-align">Password :</td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                            </table>
+                            <hr style="border-top: 1px solid grey; margin: 20px 0;">
+                            <div style="padding-bottom:10px;">
+                                <input type="checkbox" id="id">
+                                <label for="id">Remember Me</label>
+                            </div>
+                            <button type="button" onclick="document.location='dashboard.html'" style="border-radius: 5px; border: 1px solid;">Submit</button>
+                            <a href="" style="padding-left: 5px;">Forget Password?</a>          
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="inner-container" style="border: 2px solid black">
+                    <div style="text-align: center; width: 100%;">Copyright @ 2017</div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

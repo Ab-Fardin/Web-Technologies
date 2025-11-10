@@ -26,7 +26,6 @@ Web-Technologies/
 | ├── login.html
 │ ├── login.css
 │ ├── dashboard.css
-│ └── README.md
 └── README.md
 ```
 

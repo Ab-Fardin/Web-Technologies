@@ -10,7 +10,8 @@ Course materials and lab assignments for Web Technologies.
 ## 📚 Contents
 
 - [Lab Task 1](./Lab-Task-1/) – Donation Form (HTML/CSS)  
-- [Lab Task 2](./Lab-Task-2/) – Additional Web Design Exercises (HTML/CSS)
+- [Lab Task 2](./Lab-Task-2/) – Login & Landing Page Exercises (HTML/CSS)
+- [Lab Task 3](./Lab-Task-3/) - Product Page (HTML/CSS)
 
 ---
 

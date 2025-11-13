@@ -19,15 +19,24 @@ Course materials and lab assignments for Web Technologies.
 ```
 Web-Technologies/
 ├── Lab-Task-1/
-│ ├── Final_Draft_Lab-Task-1.html
-│ ├── Donor-info.css
-│ └── README.md
+│   ├── Final_Draft_Lab-Task-1.html
+│   ├── Donor-info.css
+│   └── README.md
 ├── Lab-Task-2/
-│ ├── dashboard.html
-| ├── login.html
-│ ├── login.css
-│ ├── dashboard.css
+│   ├── dashboard.html
+│   ├── login.html
+│   ├── login.css
+│   ├── dashboard.css
+│   └── README.md
+├── Lab-Task-3/
+│   ├── index.html
+│   ├── product.css
+│   ├── headphone.jpg
+│   ├── laptop.jpg
+│   ├── smartwatch.jpg
+│   └── README.md
 └── README.md
+
 ```
 
 ---

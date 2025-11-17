@@ -12,6 +12,7 @@ Course materials and lab assignments for Web Technologies.
 - [Lab Task 1](./Lab-Task-1/) – Donation Form (HTML/CSS)  
 - [Lab Task 2](./Lab-Task-2/) – Login & Landing Page Exercises (HTML/CSS)
 - [Lab Task 3](./Lab-Task-3/) - Product Page (HTML/CSS)
+- [Lab Task 3](./Lab-Task-4/) - Login Page Validation (HTML/CSS/JS)
 
 ---
 
@@ -35,6 +36,12 @@ Web-Technologies/
 │   ├── laptop.jpg
 │   ├── smartwatch.jpg
 │   └── README.md
+├── Lab-Task-4/
+│   ├── dashboard.html
+│   ├── login.html
+│   ├── login.css
+│   ├── dashboard.css
+│   └── validation.js
 └── README.md
 
 ```

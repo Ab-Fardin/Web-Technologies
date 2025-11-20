@@ -13,12 +13,17 @@ Course materials and lab assignments for Web Technologies.
 - [Lab Task 2](./Lab-Task-2/) – Login & Landing Page Exercises (HTML/CSS)
 - [Lab Task 3](./Lab-Task-3/) - Product Page (HTML/CSS)
 - [Lab Task 4](./Lab-Task-4/) - Login Page Validation (HTML/CSS/JS)
+- [Lab Exam Work](./Lab-Exam/) - Registration Form with Validation
 
 ---
 
 ## 🗂️ Repository Structure
 ```
 Web-Technologies/
+├── Lab-Exam/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
 ├── Lab-Task-1/
 │   ├── Final_Draft_Lab-Task-1.html
 │   ├── Donor-info.css

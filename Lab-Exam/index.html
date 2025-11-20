@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Lab Exam</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <p style="font-size: 35px; text-align: center;">Registration Page</p>
+        <div class="container">
+            <form onsubmit="return validation(event)" method="get">
+                <div class="inner-container">
+                    <div style="font-weight: bold;">Global Tech Connect</div>
+                </div>
+                <div class="inner-container">
+                    <div class="second-inner-container">
+                        <fieldset class="login-section">            
+                            <legend class="login">Event Registration</legend>
+                            <table class="table-1">
+                                <tr>
+                                    <td class="right-align">Full Name: </td>
+                                    <td><input type="text" id="name"/>
+                                    <p id="nameErr" style="color:red; margin: 5px 0;"></p></td>
+                                </tr>
+                                <tr>
+                                    <td class="right-align">Email: </td>
+                                    <td><input type="text" id="email"/>
+                                    <p id="emailErr" style="color:red; margin: 5px 0;"></p></td>
+                                </tr>
+                                <tr>
+                                    <td class="right-align">Company Name: </td>
+                                    <td><input type="text" id="company"/>
+                                    <p id="companyErr" style="color:red; margin: 5px 0;"></p></td>
+                                </tr>
+                                <tr>
+                                    <td class="right-align">Attendance Type: </td>
+                                    <td>
+                                        <input type="radio" id="virtual" name="attendance" value="Virtual"/> Virtual
+                                        <input type="radio" id="inperson" name="attendance" value="In-Person"/> In-Person
+                                        <p id="attendanceErr" style="color:red; margin: 5px 0;"></p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <button type="submit" style="border-radius: 5px; border: 1px solid; height: 30px; width: 80px; text-align: center;">Submit</button>          
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="inner-container" style="justify-content: center;">
+                    <button type="button" id="showButton" onclick="display()" style="border-radius: 5px; border: 1px solid; height: 35px; width: 200px;">Show Event Analytics</button>
+                </div>
+                <div class="inner-container" id="displayArea" style="display: none; flex-direction: column;">
+                    <h3 style="text-align: center; width: 100%;">Summary: </h3>
+                    <p style="margin: 5px 0;">Total: <span id="totalCount">0</span></p>
+                    <p style="margin: 5px 0;">Virtual: <span id="virtualCount">0</span></p>
+                    <p style="margin: 5px 0;">In-Person: <span id="inpersonCount">0</span></p>
+                </div>
+                <div class="inner-container" style="border: 2px solid black">
+                    <div style="text-align: center; width: 100%;">Copyright @ 2017</div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
